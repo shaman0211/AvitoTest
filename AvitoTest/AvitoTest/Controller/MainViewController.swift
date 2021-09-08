@@ -7,9 +7,10 @@
 
 import UIKit
 
-let reachability = try! Reachability()
 
 class MainViewController: UICollectionViewController {
+
+    let reachability = try! Reachability()
     
     var company = ""
     var employees = [Employee]()
